@@ -1,0 +1,18 @@
+Software toolkit for Soft Analysis
+
+The software suite is released under the CCO License, with acceptable parts compatable with the GNU Public License.  If you use the software as is or as a basis for expansion, the original author (Ash Turza) would appreciate acknowledgement but it is not required.  
+
+Ash Turza can be found at kaazrut@gmail.com.
+
+How To Use
+
+Image files should be stored in directories pertaining to the test/trial they come from.  Multiple trial directories should be stored in a direcotry pertaining to the test.
+
+Simply run imgproc.py and choose the directory you wish to run the scripts over.  It will ask what type of test and if the directory chosen was a single test or a directory for multiple ones.
+
+The output will be a series of .png files of the force-displacement curves taken from the image processing.  The raw data extracted from each image is saved in a .csv file for archival and further processing in outside software.
+
+
+Known Causes for Error
+
+At this time, the number of image files in each directory for a compilation analysis must be equal.  
