@@ -346,9 +346,9 @@ def main():
             dispLabel = 'Displacement $\Delta d$ (mm)'
             statanalysis(subDist, subForce, testNum, studyID, testName, distLabel, path, typeFlag)
             #I don't know why the displacement adds a factor of ten to a simple subtraction, dear self, wtf
-            statdisplacement(sDisplace, forceVal, testNum, studyID, testName, dispLabel, path)
+            #statdisplacement(sDisplace, forceVal, testNum, studyID, testName, dispLabel, path)
             #for when statdisplacement isn't working normally
-            #statdisplacementalt(sDisplace, subDist, forceVal, testNum, studyID, testName, dispLabel,path,typeFlag)
+            statdisplacementalt(sDisplace, subDist, forceVal, testNum, studyID, testName, dispLabel,path,typeFlag)
 
         else:
             typeFlag = 3
